@@ -1,8 +1,8 @@
 <?php
 
 $username = getenv('DB_USERNAME') ?: 'root';
-$password = getenv('DB_PASSWORD') ?: '';
-$name = getenv('DB_NAME');
+$password = getenv('DB_PASSWORD') ?: 'root';
+$name = getenv('DB_NAME') ?: 'osw';
 $host = getenv('DB_HOST') ?: 'localhost';
 $port = getenv('DB_PORT') ?: '3306';
 
